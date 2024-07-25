@@ -1,14 +1,20 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import BookingApp from './app3.jsx'
+import Navbar from './navbar.jsx'
 import Header from './header.jsx'
 import ImageSlider from './gallery.jsx'
+import RentalDetails from './rentaldetails.jsx'
+import RentalInfo from './rentalinfo.jsx'
+import Footer from './footer.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BookingApp />
+    <Navbar />
     <Header />
     <ImageSlider />
+    <RentalDetails />
+    <RentalInfo />
+    <Footer />
   </React.StrictMode>,
 )
